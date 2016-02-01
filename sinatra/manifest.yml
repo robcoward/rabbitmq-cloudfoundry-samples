@@ -3,7 +3,7 @@ applications:
 - name: rabbitmq-sinatra
   memory: 256M
   instances: 1
-  host: rabbitmq-sinatra-fish
+  host: rabbitmq-sinatra-fishpie
   services:
     rabbit-sinatra:
       label: cloudamqp
