@@ -3,7 +3,7 @@ applications:
 - name: rabbitmq-rails
   memory: 256M
   instances: 1
-  host: rabbitmq-rails-${random-word}
+  host: rabbitmq-rails-fish
   path: .
   services:
     rabbit-rails:
