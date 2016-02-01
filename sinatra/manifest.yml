@@ -3,7 +3,7 @@ applications:
 - name: rabbitmq-sinatra
   memory: 256M
   instances: 1
-  host: rabbitmq-sinatra-fishcake
+  host: rabbitmq-sinatra-fishfingers
   path: .
   services:
     rabbit-sinatra:
